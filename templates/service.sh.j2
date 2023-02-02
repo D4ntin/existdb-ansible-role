@@ -29,4 +29,4 @@ EXIST_BOOTER_OPTS="\
   -Dbasedir=${EXIST_DIR} \
   org.codehaus.mojo.appassembler.booter.AppassemblerBooter"
 
-exec {{ exist_java_home }}/bin/java ${EXIST_DEFAULT_OPTS} ${EXIST_CUSTOM_OPTS} ${EXIST_BOOTER_OPTS}
+exec ${JAVA_HOME}/java ${EXIST_DEFAULT_OPTS} ${EXIST_CUSTOM_OPTS} ${EXIST_BOOTER_OPTS}
