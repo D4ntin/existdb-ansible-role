@@ -319,7 +319,7 @@
   tags:
     - restore
 
-# a freshly installed does not have the exist_data directory until started for
+# a freshly installed instance does not have the exist_data directory until started for
 # the first time, but the jmxservlet tasks below require this dir
 - name: Ensure exist_datadir directory is present
   file:
